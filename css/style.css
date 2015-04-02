@@ -110,7 +110,6 @@
 		height: 300px;
 		margin: 10px auto;
 		background: red;
-		border: 1px solid black;
 	}
 	.contentbox {
 		background: lightgrey;
@@ -195,9 +194,12 @@
 		margin: 0 auto;
 		background: red;
 	}
+	#slideshow img {
+		height: 300px;
+	}
 	.contentbox {
 		width: 285px;
-		height: 200px;
+		height: 400px;
 		background: orange;
 		padding: 10px;
 		margin: 10px 0 10px 10px;
