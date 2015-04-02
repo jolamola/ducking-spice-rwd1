@@ -12,6 +12,12 @@
 	header {
 		height: 130px;
 		background: lightgrey;
+		text-align: center;
+
+	}
+	header img {
+		width: 100px;
+		margin-top:15px;
 	}
 	nav {
 		/*height: 35px;*/
@@ -39,11 +45,13 @@
 		background: lightgrey;
 		padding: 10px;
 		margin-bottom: 10px;
+		text-align: center;
 	}
 	.contentbox p {
 		color: white;
 		font-size: 100%;
 		line-height: 150%;
+		text-align: left;
 	}
 	/*ensure that image does not show at this res*/
 	#slideshow {
@@ -83,6 +91,11 @@
 		height: 130px;
 		background: lightgrey;
 	}
+	header img {
+		width: 100px;
+		margin-left: 20px;
+		margin-top: 15px;
+	}
 	nav {
 		/*height: 35px;*/
 		background: black;
@@ -107,24 +120,31 @@
 	}
 	#slideshow {
 		width: 90%;
-		height: 300px;
 		margin: 10px auto;
 		background: red;
+	}
+	#slideshow img {
+		width: 100%;
 	}
 	.contentbox {
 		background: lightgrey;
 		padding: 10px;
 		margin-bottom: 10px;
+		height: 320px;
+	}
+	.contentbox img {
+		float: left;
+		margin-top: 10px;		
+		margin-right: 10px;
 	}
 	.contentbox p {
 		color: white;
-		font-size: 80%;
+		font-size: 100%;
 		line-height: 150%;
 	}
 	article {
 		width: 95%; 
 		margin-left: 10px;
-
 	}
 	.news {
 		margin-bottom: 20px;
