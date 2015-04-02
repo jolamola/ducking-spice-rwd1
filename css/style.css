@@ -159,6 +159,11 @@
 		height: 130px;
 		background: orange;
 	}
+	header img {
+		width: 100px;
+		margin-left: 20px;
+		margin-top: 15px;
+	}
 	nav {
 		width: 960px;
 		height: 35px;
