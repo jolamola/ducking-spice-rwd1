@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+	img.respond {
+		width: 400px;
+	}
+}
+@media(min-width: 769px) {
+	img.respond {
+		width: 600px;
+	}
+}
+img.respond {
+	height: auto;
+}
