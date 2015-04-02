@@ -1,10 +1,44 @@
 /*small 480 and smaller*/
 @media (max-width: 480px) {
 	body {
+		background: green;
+	}
+	#mainContainer {
+		width: 95%;
+		margin: 0 auto;
+		border: 1px solid black;
 		background: white;
 	}
-	img.respond {
-		width: 300px;
+	header {
+		height: 130px;
+		background: lightgrey;
+	}
+	nav {
+		background: black;
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+	nav li {
+		display: inline;
+	}
+	.contentbox {
+		background: lightgrey;
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+	/*ensure that image does not show at this res*/
+	#slideshow {
+		display: none;
+	}
+	article {
+		width: 95%;
+		margin-left: 10px;
+	}
+	.news {
+		margin-bottom: 20px;
+	}
+	footer {
+		margin-bottom: 0px;
 	}
 }
 /*medium 481-1023*/
@@ -19,12 +53,10 @@
 		background: white;
 	}
 	header {
-		/*width: 960px;*/
 		height: 130px;
 		background: lightgrey;
 	}
 	nav {
-		/*width: 960px;*/
 		height: 35px;
 		background: black;
 		padding: 2px 0 20px 0;
@@ -46,7 +78,7 @@
 		margin-bottom: 10px;
 	}
 	article {
-		width: 95%;
+		width: 95%; 
 		margin-left: 10px;
 	}
 	.news {
