@@ -1,3 +1,4 @@
+
 /*small 480 and smaller*/
 @media (max-width: 560px) {
 	body {
@@ -196,8 +197,12 @@
 	}
 	nav ul {
 		-webkit-padding-start: 0;
+		-moz-padding-start: 0;
 		-webkit-margin-before: 0;
+		-moz-margin-before: 0;
 		-webkit-margin-after: 0;
+		-moz-margin-after: 0;
+		margin-top:0;
 	}
 	nav li {
 		display: inline;
@@ -228,9 +233,38 @@
 		margin: 10px 0 10px 10px;
 		float: left;
 	}
+	.contentbox img {
+		margin-top:0;
+		z-index: 1;
+	}
 	.contentbox p {
 		color: white;
 	}
+	.wrapper {
+		position: relative;
+		display: block;
+	}
+	.text {
+		position: absolute;
+		top:0;
+		left:0;
+		color: white;
+		font-size: 20px;
+		background-color: rgba(0,0,0,.5);
+		width: 285px;
+		height: 190px;
+		opacity:0;
+		z-index: 10;
+		text-align: center;
+		line-height: 192px;
+		-webkit-transition: all 0.3s ease;
+    	-moz-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	.text:hover {
+		opacity:1;
+	}
+
 	article {
 		width: 940px;
 		margin-left: 10px;
