@@ -258,7 +258,7 @@
 		text-align: center;
 		line-height: 192px;
 		-webkit-transition: all 0.3s ease;
-    	-moz-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
 		transition: all 0.3s ease;
 	}
 	.text:hover {
@@ -274,26 +274,22 @@
 	}
 	.news h2 {
 		margin-bottom: -15px;
-		/*font-size: 150%;*/
 	}
-/*	.news p {
-		font-size: 90%;
-		}*/
-		footer nav {
-			margin-bottom: 0;
-		}
-		footer nav li a {
-			font-size: 12px;
-			font-weight: normal;
-		}
-		footer nav li a:hover {
-			color: white;
-		}
+	footer nav {
+		margin-bottom: 0;
 	}
+	footer nav li a {
+		font-size: 12px;
+		font-weight: normal;
+	}
+	footer nav li a:hover {
+		color: white;
+	}
+}
 
 
 
-	/*general*/
-	img.respond {
-		height: auto;
-	}
+/*general*/
+img.respond {
+	height: auto;
+}
